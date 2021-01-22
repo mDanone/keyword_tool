@@ -6,6 +6,7 @@ import os
 from keywordsearch import Run
 # print("{os.getcwd()}\\browser`s drivers\\chromedriver.exe)
 
+
 files = re.findall(r"\S+.txt", " ".join(sys.argv))
 list_of_keywords = []
 service = "amazon"
